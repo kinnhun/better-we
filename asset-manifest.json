@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/better-we/static/css/main.c42d6c45.css",
+    "main.js": "/better-we/static/js/main.0fdfc637.js",
+    "static/js/453.8ab44547.chunk.js": "/better-we/static/js/453.8ab44547.chunk.js",
+    "static/media/messenger.png": "/better-we/static/media/messenger.bac0d333b412df3e49df.png",
+    "index.html": "/better-we/index.html",
+    "main.c42d6c45.css.map": "/better-we/static/css/main.c42d6c45.css.map",
+    "main.0fdfc637.js.map": "/better-we/static/js/main.0fdfc637.js.map",
+    "453.8ab44547.chunk.js.map": "/better-we/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c42d6c45.css",
+    "static/js/main.0fdfc637.js"
+  ]
+}
