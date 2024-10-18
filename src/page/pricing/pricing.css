@@ -1,0 +1,19 @@
+.row .properties__card {
+  height: 1000px;
+  position: relative;
+}
+
+.row .properties__card .properties__caption {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.row .properties__card .properties__caption .border-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  width: 90%;
+  margin: auto;
+}

@@ -1,0 +1,73 @@
+/* ExCategory Component Styles */
+.category-selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background: #303339;
+  min-height: 100vh;
+}
+
+.category-selection h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.category-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.category-item a {
+  text-decoration: none;
+}
+
+.category-img {
+  width: 100%;
+  max-width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+  object-fit: cover;
+}
+
+.category-img:hover {
+  transform: scale(1.05);
+}
+
+.category-name {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.category-item:hover .category-name {
+  color: white;
+  text-decoration: none;
+}
+
+/* For Mobile devices */
+@media (max-width: 600px) {
+  .category-selection h2 {
+    font-size: 1.5rem;
+  }
+
+  .category-img {
+    max-width: 150px;
+  }
+
+  .category-name {
+    font-size: 1rem;
+  }
+}

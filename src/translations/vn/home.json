@@ -1,0 +1,17 @@
+{
+    "header": {
+        "home": "Trang chủ",
+        "about": "Giới thiệu",
+        "contact": "Liên hệ",
+        "BMI calculator": "Tính Chỉ số BMI",
+        "pricing": "Gói dịch vụ",
+        "blog": "Blog",
+        "blog detail": "Bài viết",
+        "courses":"Khóa tập"
+    },
+    "Single Slider": {
+        "Hi This is BetterWE": "Xin chào, đây là BetterWE",
+        "Gym Trainer": "Huấn luyện viên thể hình",
+        "My Courses": "Các khóa học"
+    }
+}

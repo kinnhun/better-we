@@ -1,0 +1,132 @@
+.bmi-calculator-section {
+  /* background: #151515; */
+  padding: 100px 0;
+}
+
+.section-title.chart-title {
+  text-align: left;
+}
+
+.chart-table table {
+  border: 1px solid #363636;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.chart-table table thead {
+  border-bottom: 1px solid #363636;
+}
+
+.chart-table table thead tr th {
+  background: #060606;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  border-right: 1px solid #363636;
+  padding: 15px 20px;
+}
+
+.chart-table table tbody tr {
+  border-bottom: 1px solid #363636;
+}
+
+.chart-table table tbody tr td {
+  font-size: 14px;
+  /* color: #c4c4c4; */
+  border-right: 1px solid #363636;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.chart-table table tbody tr td.point {
+}
+
+.section-title.chart-calculate-title {
+  text-align: left;
+}
+
+.chart-calculate-form p {
+  margin-bottom: 24px;
+}
+
+.chart-calculate-form form input {
+  font-size: 14px;
+  width: 100%;
+  height: 50px;
+  border: 1px solid #363636;
+  padding-left: 20px;
+  padding-right: 5px;
+  background: transparent;
+  margin-bottom: 20px;
+}
+
+.chart-calculate-form form input::-webkit-input-placeholder {
+  color: #c4c4c4;
+}
+
+.chart-calculate-form form input::-moz-placeholder {
+  color: #c4c4c4;
+}
+
+.chart-calculate-form form input:-ms-input-placeholder {
+  color: #c4c4c4;
+}
+
+.chart-calculate-form form input::-ms-input-placeholder {
+  color: #c4c4c4;
+}
+
+.chart-calculate-form form input::placeholder {
+  color: #c4c4c4;
+}
+
+.chart-calculate-form form button {
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 100%;
+  border: none;
+  padding: 15px 0;
+  background: #f36100;
+  cursor: pointer;
+}
+
+.chart-calculate-form form button:hover {
+  background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+}
+
+b {
+  color: black;
+}
+
+.video-section {
+  margin-bottom: -2px;
+  height: 100vh;
+  background: #303339;
+  overflow: hidden;
+  /* width: 80%; */
+  /* margin: 0 auto; */
+}
+
+.youtube-container {
+  /* height: 100%; */
+  /* background: blue; */
+  width: 100%;
+}
+
+.youtube-container iframe {
+  height: 100vh;
+  width: 100%;
+}
+
+.header-bg {
+  background: linear-gradient(to bottom, #950101 0%, #630102 50%, #3d0302 100%);
+  height: 115px;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
